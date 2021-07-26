@@ -1,0 +1,115 @@
+body{
+    background-color: rgb(235, 235, 235);
+    margin: 0;
+    font-size: 20px;
+}
+/* Nav */
+.nav{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color:rgb(59, 59, 61);
+    border-bottom: 1px solid black;
+}
+.nav a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+}
+/* Todos */
+.container{
+    margin: 50px auto;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    background-color: rgba(255, 255, 255,0.8);
+    justify-content: space-between;
+}
+.todos{
+    background-color: rgba(2, 2, 2, 0.2);
+    width: 30%;
+    padding: 10px 10px;
+    min-width: 280px;
+    border-radius: 15px;
+    margin: 5px;
+}
+.todos span{
+    display: block;
+    margin: 5px 0;
+    text-align: center;
+    font-weight: 600;
+}
+/* Todo */
+.todo{
+    display: flex;
+    margin-top: 5px;
+}
+.todo a{
+    text-decoration: none;
+    color: black;
+}
+.todo button{
+    background-color: rgb(207, 2, 2);
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+    color: white;
+    text-align: center;
+    width: 21px;
+    height: 21px;
+}
+/* Add Todo */
+.add{
+    width: 50%;
+    padding: 20px;
+    margin: 40px auto;
+    background-color:rgba(2, 2, 2, 0.2);
+    text-align: center;
+    border-radius: 15%;
+}
+.add input{
+    display:block;
+    margin: 5px auto;
+    background-color: rgba(255, 255, 255,0.8);
+}
+.add textarea{
+    display:block;
+    margin: 5px auto;
+    width: 90%;
+    height: 200px;
+    background-color: rgba(255, 255, 255,0.8);
+}
+.add button{
+    margin: 10px;
+}
+/* Todo Details */
+.details{
+    width: 50%;
+    margin: 30px auto;
+    background-color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+.details p{
+    background-color: rgba(173, 164, 164, 0.575);
+    width: 100%;
+    padding: 5px;
+    color: black;
+}
+.details span{
+    display: block;
+    margin: 15px;
+}
+.details button{
+    padding: 5px;
+    margin: 2px;
+}
+.del{
+    background-color: rgb(182, 7, 7);
+    color: white;
+    border: 1px solid black;
+}
